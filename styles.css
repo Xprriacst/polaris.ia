@@ -1,0 +1,189 @@
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* En-tête */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .panier img {
+    width: 24px;
+}
+
+/* Bannière principale */
+.banniere {
+    background-image: url('books-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banniere h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.banniere p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banniere .btn {
+    background-color: #f15a24;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section À propos */
+.apropos {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.apropos img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Section Livres */
+.livres {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.livre-liste {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.livre {
+    margin: 15px;
+    text-align: center;
+}
+
+.livre img {
+    width: 150px;
+    height: auto;
+}
+
+.livre h3 {
+    margin: 10px 0;
+}
+
+.livres .btn {
+    background-color: #f15a24;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section Contact */
+.contact {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    font-weight: bold;
+}
+
+.contact form input, 
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.info-contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .reseaux-sociaux img {
+    width: 24px;
+    margin: 0 5px;
+}
+
+footer p {
+    margin-top: 10px;
+}
