@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Voix du Libraire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="logo">
+            <h1>La Voix du Libraire</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#livres">Livres</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="panier">
+            <a href="#"><img src="cart-icon.png" alt="Panier"></a>
+        </div>
+    </header>
+
+    <!-- Bannière principale -->
+    <section class="banniere" id="accueil">
+        <div class="banniere-contenu">
+            <h2>Bienvenue à La Voix du Libraire</h2>
+            <p>Votre librairie en ligne indépendante</p>
+            <a href="#livres" class="btn">Découvrir nos livres</a>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section class="apropos" id="apropos">
+        <h2>À propos</h2>
+        <p>Nous sommes une librairie indépendante, dédiée à fournir une sélection de livres soigneusement choisis pour tous les passionnés de lecture.</p>
+        <img src="bookstore.jpg" alt="Librairie">
+    </section>
+
+    <!-- Section Livres -->
+    <section class="livres" id="livres">
+        <h2>Nos Livres</h2>
+        <div class="livre-liste">
+            <div class="livre">
+                <img src="livre1.jpg" alt="Livre 1">
+                <h3>Titre du Livre 1</h3>
+                <p>15,00 €</p>
+            </div>
+            <div class="livre">
+                <img src="livre2.jpg" alt="Livre 2">
+                <h3>Titre du Livre 2</h3>
+                <p>20,00 €</p>
+            </div>
+            <div class="livre">
+                <img src="livre3.jpg" alt="Livre 3">
+                <h3>Titre du Livre 3</h3>
+                <p>18,00 €</p>
+            </div>
+        </div>
+        <a href="#" class="btn">Voir plus</a>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact" id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="post">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="sujet">Sujet:</label>
+            <input type="text" id="sujet" name="sujet" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+        <div class="info-contact">
+            <p>Adresse : 123 Rue de la Librairie, Paris</p>
+            <p>Téléphone : +33 1 23 45 67 89</p>
+            <p>Email : contact@lavoixdulibraire.fr</p>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#livres">Livres</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="reseaux-sociaux">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 La Voix du Libraire. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
