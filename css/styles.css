@@ -1,4 +1,4 @@
-/* === Styles généraux === */
+/* === Styles gÃ©nÃ©raux === */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body {
   margin: auto;
 }
 
-/* === En-tête === */
+/* === En-tÃªte === */
 header {
   background-color: #fff;
   padding: 20px 0;
@@ -78,6 +78,9 @@ nav {
 
 /* === Bouton === */
 .btn {
+  background-color: #007BFF;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
   display: inline-block;
   background-color: #28C76F;
   color: #fff;
@@ -89,11 +92,13 @@ nav {
 }
 
 .btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #1eac5d;
   transform: translateY(-2px);
 }
 
-/* === Bannière principale === */
+/* === BanniÃ¨re principale === */
 .hero {
   display: flex;
   align-items: center;
@@ -141,7 +146,7 @@ nav {
   text-align: center;
 }
 
-/* === Section Comment Ça Marche === */
+/* === Section Comment Ã‡a Marche === */
 .features {
   padding: 80px 0;
 }
@@ -178,7 +183,7 @@ nav {
   color: #666;
 }
 
-/* === Section Bénéfices Clés === */
+/* === Section BÃ©nÃ©fices ClÃ©s === */
 .benefits {
   background-color: #f8f8f8;
   padding: 80px 0;
@@ -261,7 +266,7 @@ nav {
   color: #666;
 }
 
-/* === Témoignages === */
+/* === TÃ©moignages === */
 .testimonials {
   padding: 80px 0;
 }
@@ -310,11 +315,16 @@ nav {
 }
 
 .cta .btn {
+  background-color: #007BFF;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
   background-color: #28C76F;
   color: #fff;
 }
 
 .cta .btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #1eac5d;
 }
 
