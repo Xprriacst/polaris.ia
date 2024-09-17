@@ -1,4 +1,4 @@
-/* === Styles gÃ©nÃ©raux === */
+/* === Styles généraux === */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body {
   margin: auto;
 }
 
-/* === En-tÃªte === */
+/* === En-tête === */
 header {
   background-color: #fff;
   padding: 20px 0;
@@ -78,6 +78,7 @@ nav {
 
 /* === Bouton === */
 .btn {
+  border-radius: 20px;
   background-color: #007BFF;
   font-weight: 600;
   transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
@@ -98,7 +99,7 @@ nav {
   transform: translateY(-2px);
 }
 
-/* === BanniÃ¨re principale === */
+/* === Bannière principale === */
 .hero {
   display: flex;
   align-items: center;
@@ -112,6 +113,9 @@ nav {
 }
 
 .hero-content h1 {
+  text-align: center;
+  font-size: 52px;
+  margin-top: 30px;
   font-size: 48px;
   margin-bottom: 20px;
 }
@@ -146,7 +150,7 @@ nav {
   text-align: center;
 }
 
-/* === Section Comment Ã‡a Marche === */
+/* === Section Comment Ça Marche === */
 .features {
   padding: 80px 0;
 }
@@ -183,7 +187,7 @@ nav {
   color: #666;
 }
 
-/* === Section BÃ©nÃ©fices ClÃ©s === */
+/* === Section Bénéfices Clés === */
 .benefits {
   background-color: #f8f8f8;
   padding: 80px 0;
@@ -202,6 +206,10 @@ nav {
 }
 
 .benefit-item {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
   text-align: center;
   width: 45%;
   margin-bottom: 40px;
@@ -213,6 +221,7 @@ nav {
 }
 
 .benefit-item h3 {
+  margin-top: 10px;
   font-size: 24px;
   margin-bottom: 15px;
 }
@@ -266,7 +275,7 @@ nav {
   color: #666;
 }
 
-/* === TÃ©moignages === */
+/* === Témoignages === */
 .testimonials {
   padding: 80px 0;
 }
@@ -315,6 +324,7 @@ nav {
 }
 
 .cta .btn {
+  border-radius: 20px;
   background-color: #007BFF;
   font-weight: 600;
   transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
@@ -470,6 +480,9 @@ footer {
   }
 
   .hero-content h1 {
+  text-align: center;
+  font-size: 52px;
+  margin-top: 30px;
     font-size: 32px;
   }
 
